@@ -37,7 +37,7 @@ unsigned long long int binomial(unsigned n, unsigned k)
     return c;
 }
 
-// 计算大数的阶乘，结果保存在vector中
+// 计算大数的排列(A(n,k))，结果保存在vector中
 void factorial(const int n, const int k, vector<int> &fac)
 {
     fac.push_back(1);
